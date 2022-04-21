@@ -27,9 +27,22 @@ gtag: "G-RF2KKYBL7Z"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Hi, my name's Jesús and I'm a Software Support Engineer. As well as Support Engineer I also have experience as Network Engineer and Sysadmin. I have worked over eight years of valuable experience in software procurement, installation, ticketing systems and administration systems to ensure company success.
+  I am an <mark>energetic</mark> and <mark>ambitious</mark> person who bringing forth a motivated attitude and the ability to establish strong and productive relationships with other company members.
 content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Facephi Biometria S.A.
+        link: https://facephi.com/
+        # link_text: facephi.com
+        sub_title: Technical support Engineer
+        caption: January 2012 - Present
+        quote: >
+          FacePhi provides secure, fast, and easy to use technology. Experts in user’s digital identity verification, it specialises in digital onboarding and biometric authentication solutions. 
+        description: | # this will include new lines to allow paragraphs
+            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -48,19 +61,6 @@ content:
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
