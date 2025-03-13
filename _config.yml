@@ -6,10 +6,10 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Jesús Reyes Piernagorda
-title: Software Support Engineer 
+name: Jesús Reyes Piernagorda (이해수)
+title: Technical Support Engineer 
 email: jesusrepi@gmail.com
-website: https://www.linkedin.com/in/jesusreyesp/
+website: https://www.linkedin.com/in/jesusreyesp/?locale=ko_KR
 
 # Dark Mode (true/false/never)
 darkmode: true
