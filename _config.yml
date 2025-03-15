@@ -27,10 +27,10 @@ gtag: "G-RF2KKYBL7Z"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-Im a Technical Support Engineer with <mark>12 years of experience</mark>, specializing in networking, data storage solutions, system deployments, and both Linux and Windows environments. Im passionate about emerging technologies and always looking to expand my technical skills.
-Throughout my career, Ive developed a knack for <mark>quickly resolving complex issues</mark> in fast-paced environments. My experience in B2B technical organizations has shaped my leadership style, whether Im mentoring colleagues or tackling challenges head-on.
-<mark>Fluent in both Spanish and English</mark>, I’m able to effectively bridge communication gaps between teams and clients. I’m also committed to creating clear and comprehensive <mark>KCS documentation</mark> to improve self-service options and streamline case resolution.
-With a <mark>strong technical background</mark>, a <mark>solid work ethic</mark>, and a collaborative approach, I aim to drive success in every role I take on in software support and solutions engineering.
+  Im a Technical Support Engineer with <mark>12 years of experience</mark>, specializing in networking, data storage solutions, system deployments, and both Linux and Windows environments. Im passionate about emerging technologies and always looking to expand my technical skills.
+  Throughout my career, Ive developed a knack for <mark>quickly resolving complex issues</mark> in fast-paced environments. My experience in B2B technical organizations has shaped my leadership style, whether Im mentoring colleagues or tackling challenges head-on.
+  <mark>Fluent in both Spanish and English</mark>, I’m able to effectively bridge communication gaps between teams and clients. I’m also committed to creating clear and comprehensive <mark>KCS documentation</mark> to improve self-service options and streamline case resolution.
+  With a <mark>strong technical background</mark>, a <mark>solid work ethic</mark>, and a collaborative approach, I aim to drive success in every role I take on in software support and solutions engineering.
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
