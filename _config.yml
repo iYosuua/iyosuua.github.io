@@ -37,37 +37,49 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: NetApp, Inc.
+        link: https://www.netapp.com/
+        # link_text: netapp.com
+        sub_title: Technical Support Engineer Level 2 Oncommand
+        caption: February 2023 - Now
+        quote: >
+          NetApp, Inc. is an American data infrastructure company that provides unified data storage, integrated data services, and cloud operations solutions to enterprise customers.
+        description: | # this will include new lines to allow paragraphs
+            • Provided technical support for monitoring NetApp storage systems, including Active IQ Unified Manager, Data Infrastructure Insights, ONTAP System Manager, and Active IQ Digital Advisor. 
+            • Troubleshot REST APIs, storage health and performance issues, and OS environment problems across both on-premises and cloud infrastructures, ensuring quick issue resolution.
+            • Configured and managed alerts and notifications for system issues and failures, enhancing proactive monitoring and incident response.
+            • Created and maintained technical documentation and knowledge base articles as a Knowledge-Centered Service (KCS) Publisher, improving self-service support and reducing case resolution time.
+            • Delivered exceptional customer support, achieving a 95% customer satisfaction rating through effective troubleshooting, clear communication, and timely resolution of complex issues.
+      - layout: left
         title: Facephi Biometria S.A.
         link: https://facephi.com/
         # link_text: facephi.com
-        sub_title: Technical Support Engineer N2
-        caption: January 2022 - Present
+        sub_title: Technical Support Engineer Level 2
+        caption: January 2022 - January 2023
         quote: >
           FacePhi provides secure, fast, and easy to use technology. Experts in user’s digital identity verification, it specialises in digital onboarding and biometric authentication solutions. 
         description: | # this will include new lines to allow paragraphs
-            • APAC Area N2 technical support and dispatcher.
-            • SaaS, API and SDK support in Digital onboarding and biometric authentication solutions.
-            • Support platforms like Jira, Github, Confluence, CRM and Redmine management.
-            • Integration support in frameworks (Ionic, Cordova, Capacitor, React Native, Flutter, …).
-            • Android/iOS platforms deployment and Web (Angular, Vue, HTML and React).
-            • ITIL Processes (KPI´s and SLA) and QA testing.
-            • Maintaining documentation for all Helpdesk and end-user processes and procedures.
+            • Provided Level 2 technical support and served as a dispatcher for the APAC region, ensuring timely issue resolution and seamless communication between teams.
+            • Delivered SaaS, API, and SDK support for digital onboarding and biometric authentication solutions, assisting clients with integration and troubleshooting.
+            • Supported and managed technical platforms including Jira, GitHub, Confluence, CRM, and Redmine to streamline issue tracking and documentation.
+            • Assisted in integration support for mobile and web frameworks such as Ionic, Cordova, Capacitor, React Native, and Flutter, ensuring smooth deployment.
+            • Provided Android/iOS deployment support and web development assistance for technologies like Angular, Vue, HTML, and React.
+            • Adhered to ITIL processes, monitored KPIs and SLAs, and participated in QA testing to enhance service quality and efficiency.
+            • Managed software licensing for biometric authentication solutions, ensuring compliance, renewal tracking, and proper allocation across clients and internal teams.
       - layout: left
         title: Lisec GmbH
         link: https://www.lisec.com/
         # link_text: lisec.com
-        sub_title: Software Engineer
+        sub_title: Technical Support Specialist
         caption: July 2018 - January 2022
         quote: >
           LiSEC has been producing glass processing machines, offering innovative single and system solutions in the field of flat glass processing and refining
         description: | # this will include new lines to allow paragraphs
-            • Database administrator (Postgresql, Oracle, ...). 
-            • ERP&CRM.
-            • Ticket Support.
-            • Event monitoring / incident handling.
-            • Server built / configuration.
-            • OS upgrades / patching (Windows Server, Linux, MAC OS X Server). 
-            • Fulfillment of service requests.
+            • Provided technical support, resolving complex issues related to order management, production planning, data analysis, and machine integration in the flat glass industry. 
+            • Acted as a Database Administrator (PostgreSQL, Oracle, etc.), ensuring database optimization, backup management, and troubleshooting performance issues.
+            • Supported ERP & CRM systems, assisting with configuration, data integrity, and workflow automation to enhance operational efficiency.
+            • Handled server builds and configurations, ensuring optimal setup for Windows Server, Linux, and macOS X Server environments.
+            • Executed OS upgrades, patching, and security updates, maintaining system stability and compliance with industry standards.
       - layout: left
         title: Molisoft Grupo Empresarial S.L.
         link: https://molisoft.com/
@@ -77,15 +89,15 @@ content:
         # quote: >
         #  FacePhi provides secure, fast, and easy to use technology. Experts in user’s digital identity verification, it specialises in digital onboarding and biometric authentication solutions. 
         description: | # this will include new lines to allow paragraphs
-            • Installation and maintenance of all DOCSIS systems.
-            • Network monitoring.
-            • Building, configuration and troubleshooting of server and desktop hardware.
-            • Providing advice on selection and purchase of IT equipment.
-            • Maintaining maximum availability of supported services for users.
-            • Designing, implementing and managing Linux services.
-            • Monitoring the progress of third-party maintenance contract suppliers. Ensuring that support calls are logged and handled effectively and efficiently.
-            • Responsible for disaster recovery, closing security loopholes and access levels.
-            • Identify and recommending improvements for IT Products.
+            • Installed, maintained, and optimized DOCSIS systems, ensuring reliable broadband services for local TV, internet, and telephony providers.
+            • Monitored network performance to detect, analyze, and resolve faults, minimizing service disruptions and ensuring maximum uptime.
+            • Built, configured, and troubleshot server and desktop hardware, ensuring optimal system performance and longevity.
+            • Provided expert guidance on IT equipment selection and procurement, balancing performance, scalability, and cost-efficiency.
+            • Ensured high availability of critical services, proactively addressing system failures, congestion issues, and security risks.
+            • Designed, implemented, and managed Linux-based services, supporting infrastructure for telecom and ISP operations.
+            • Supervised and coordinated third-party maintenance contracts, ensuring service calls were logged, tracked, and resolved efficiently.
+            • Implemented disaster recovery strategies, security hardening, and access control policies to mitigate risks and protect sensitive data.
+            • Evaluated and recommended IT product and service improvements, enhancing operational efficiency and service quality.
  # - title: Projects # Title for the section
  #   layout: list # Type of content section (list/text)
  #   content:
