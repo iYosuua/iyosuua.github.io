@@ -45,11 +45,11 @@ content:
         quote: >
           NetApp, Inc. is an American data infrastructure company that provides unified data storage, integrated data services, and cloud operations solutions to enterprise customers.
         description: | # this will include new lines to allow paragraphs
-            • Provided technical support for monitoring NetApp storage systems, including Active IQ Unified Manager, Data Infrastructure Insights, ONTAP System Manager, and Active IQ Digital Advisor. 
-            • Troubleshot REST APIs, storage health and performance issues, and OS environment problems across both on-premises and cloud infrastructures, ensuring quick issue resolution.
-            • Configured and managed alerts and notifications for system issues and failures, enhancing proactive monitoring and incident response.
-            • Created and maintained technical documentation and knowledge base articles as a Knowledge-Centered Service (KCS) Publisher, improving self-service support and reducing case resolution time.
-            • Delivered exceptional customer support, achieving a 95% customer satisfaction rating through effective troubleshooting, clear communication, and timely resolution of complex issues.
+        |    • Provided technical support for monitoring NetApp storage systems, including Active IQ Unified Manager, Data Infrastructure Insights, ONTAP System Manager, and Active IQ Digital Advisor. 
+        |    • Troubleshot REST APIs, storage health and performance issues, and OS environment problems across both on-premises and cloud infrastructures, ensuring quick issue resolution.
+        |    • Configured and managed alerts and notifications for system issues and failures, enhancing proactive monitoring and incident response.
+        |    • Created and maintained technical documentation and knowledge base articles as a Knowledge-Centered Service (KCS) Publisher, improving self-service support and reducing case resolution time.
+        |    • Delivered exceptional customer support, achieving a 95% customer satisfaction rating through effective troubleshooting, clear communication, and timely resolution of complex issues.
       - layout: left
         title: Facephi Biometria S.A.
         link: https://facephi.com/
