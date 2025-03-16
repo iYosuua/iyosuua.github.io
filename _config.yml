@@ -59,13 +59,13 @@ content:
         quote: >
           FacePhi provides secure, fast, and easy to use technology. Experts in user’s digital identity verification, it specialises in digital onboarding and biometric authentication solutions. 
         description: | # this will include new lines to allow paragraphs
-            • Provided Level 2 technical support and served as a dispatcher for the APAC region, ensuring timely issue resolution and seamless communication between teams.
-            • Delivered SaaS, API, and SDK support for digital onboarding and biometric authentication solutions, assisting clients with integration and troubleshooting.
-            • Supported and managed technical platforms including Jira, GitHub, Confluence, CRM, and Redmine to streamline issue tracking and documentation.
-            • Assisted in integration support for mobile and web frameworks such as Ionic, Cordova, Capacitor, React Native, and Flutter, ensuring smooth deployment.
-            • Provided Android/iOS deployment support and web development assistance for technologies like Angular, Vue, HTML, and React.
-            • Adhered to ITIL processes, monitored KPIs and SLAs, and participated in QA testing to enhance service quality and efficiency.
-            • Managed software licensing for biometric authentication solutions, ensuring compliance, renewal tracking, and proper allocation across clients and internal teams.
+            * Provided Level 2 technical support and served as a dispatcher for the APAC region, ensuring timely issue resolution and seamless communication between teams.
+            * Delivered SaaS, API, and SDK support for digital onboarding and biometric authentication solutions, assisting clients with integration and troubleshooting.
+            * Supported and managed technical platforms including Jira, GitHub, Confluence, CRM, and Redmine to streamline issue tracking and documentation.
+            * Assisted in integration support for mobile and web frameworks such as Ionic, Cordova, Capacitor, React Native, and Flutter, ensuring smooth deployment.
+            * Provided Android/iOS deployment support and web development assistance for technologies like Angular, Vue, HTML, and React.
+            * Adhered to ITIL processes, monitored KPIs and SLAs, and participated in QA testing to enhance service quality and efficiency.
+            * Managed software licensing for biometric authentication solutions, ensuring compliance, renewal tracking, and proper allocation across clients and internal teams.
       - layout: left
         title: Lisec GmbH
         link: https://www.lisec.com/
@@ -73,21 +73,21 @@ content:
         sub_title: Technical Support Specialist
         caption: July 2018 - January 2022
         quote: >
-          LiSEC has been producing glass processing machines, offering innovative single and system solutions in the field of flat glass processing and refining
+          Molisoft is an ISP specializing in reliable networking solutions and expert technical support, ensuring seamless and secure internet connectivity for businesses and individuals.
         description: | # this will include new lines to allow paragraphs
-            • Provided technical support, resolving complex issues related to order management, production planning, data analysis, and machine integration in the flat glass industry. 
-            • Acted as a Database Administrator (PostgreSQL, Oracle, etc.), ensuring database optimization, backup management, and troubleshooting performance issues.
-            • Supported ERP & CRM systems, assisting with configuration, data integrity, and workflow automation to enhance operational efficiency.
-            • Handled server builds and configurations, ensuring optimal setup for Windows Server, Linux, and macOS X Server environments.
-            • Executed OS upgrades, patching, and security updates, maintaining system stability and compliance with industry standards.
+            * Provided technical support, resolving complex issues related to order management, production planning, data analysis, and machine integration in the flat glass industry. 
+            * Acted as a Database Administrator (PostgreSQL, Oracle, etc.), ensuring database optimization, backup management, and troubleshooting performance issues.
+            * Supported ERP & CRM systems, assisting with configuration, data integrity, and workflow automation to enhance operational efficiency.
+            * Handled server builds and configurations, ensuring optimal setup for Windows Server, Linux, and macOS X Server environments.
+            * Executed OS upgrades, patching, and security updates, maintaining system stability and compliance with industry standards.
       - layout: left
         title: Molisoft Grupo Empresarial S.L.
         link: https://molisoft.com/
         # link_text: molisoft.com
         sub_title: Noc Engineer
         caption: March 2013 - May 2018
-        # quote: >
-        #  FacePhi provides secure, fast, and easy to use technology. Experts in user’s digital identity verification, it specialises in digital onboarding and biometric authentication solutions. 
+        quote: >
+          FacePhi provides secure, fast, and easy to use technology. Experts in user’s digital identity verification, it specialises in digital onboarding and biometric authentication solutions. 
         description: | # this will include new lines to allow paragraphs
             • Installed, maintained, and optimized DOCSIS systems, ensuring reliable broadband services for local TV, internet, and telephony providers.
             • Monitored network performance to detect, analyze, and resolve faults, minimizing service disruptions and ensuring maximum uptime.
@@ -116,28 +116,28 @@ content:
  #          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
  #        description: | # this will include new lines to allow paragraphs
  #          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+ # - title: Education # Title for the section
+ #   layout: list # Type of content section (list/text)
+ #   content:
+ #     - layout: left
+ #       title: Harvard University
+ #       caption: 2010 - 2013
+ #       sub_title: BSc Computer Science
+ #       quote: >
+ #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+ #       description: | # this will include new lines to allow paragraphs
+ #         During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+ #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+ # - title: A Little More About Me
+ #   layout: text
+ #   content: | # this will include new lines to allow paragraphs
+ #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+ #     - Rock climbing
+ #     - Gaming
+ #     - Knitting
+ #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+ #     Look at this cool image  
+ #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
