@@ -89,15 +89,15 @@ content:
         quote: >
           Molisoft is an ISP specializing in reliable networking solutions and expert technical support, ensuring seamless and secure internet connectivity for businesses and individuals.
         description: | # this will include new lines to allow paragraphs
-            • Installed, maintained, and optimized DOCSIS systems, ensuring reliable broadband services for local TV, internet, and telephony providers.
-            • Monitored network performance to detect, analyze, and resolve faults, minimizing service disruptions and ensuring maximum uptime.
-            • Built, configured, and troubleshot server and desktop hardware, ensuring optimal system performance and longevity.
-            • Provided expert guidance on IT equipment selection and procurement, balancing performance, scalability, and cost-efficiency.
-            • Ensured high availability of critical services, proactively addressing system failures, congestion issues, and security risks.
-            • Designed, implemented, and managed Linux-based services, supporting infrastructure for telecom and ISP operations.
-            • Supervised and coordinated third-party maintenance contracts, ensuring service calls were logged, tracked, and resolved efficiently.
-            • Implemented disaster recovery strategies, security hardening, and access control policies to mitigate risks and protect sensitive data.
-            • Evaluated and recommended IT product and service improvements, enhancing operational efficiency and service quality.
+            * Installed, maintained, and optimized DOCSIS systems, ensuring reliable broadband services for local TV, internet, and telephony providers.
+            * Monitored network performance to detect, analyze, and resolve faults, minimizing service disruptions and ensuring maximum uptime.
+            * Built, configured, and troubleshot server and desktop hardware, ensuring optimal system performance and longevity.
+            * Provided expert guidance on IT equipment selection and procurement, balancing performance, scalability, and cost-efficiency.
+            * Ensured high availability of critical services, proactively addressing system failures, congestion issues, and security risks.
+            * Designed, implemented, and managed Linux-based services, supporting infrastructure for telecom and ISP operations.
+            * Supervised and coordinated third-party maintenance contracts, ensuring service calls were logged, tracked, and resolved efficiently.
+            * Implemented disaster recovery strategies, security hardening, and access control policies to mitigate risks and protect sensitive data.
+            * Evaluated and recommended IT product and service improvements, enhancing operational efficiency and service quality.
  # - title: Projects # Title for the section
  #   layout: list # Type of content section (list/text)
  #   content:
