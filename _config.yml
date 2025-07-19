@@ -40,8 +40,22 @@ content:
         title: NetApp, Inc.
         link: https://www.netapp.com/
         # link_text: netapp.com
+        sub_title: Senior Technical Support Engineer Level 3 Oncommand
+        caption: July 2025 - Now
+        quote: >
+          NetApp, Inc. is an American data infrastructure company that provides unified data storage, integrated data services, and cloud operations solutions to enterprise customers.
+        description: | # this will include new lines to allow paragraphs
+          * Promoted to Senior Engineer in recognition of technical leadership, mentoring, and consistent delivery of high-impact support.
+          * Lead high-impact customer cases, collaborating cross-functionally with Product Engineering to drive resolution.
+          * Mentor and guide junior engineers, facilitating knowledge transfer sessions and contributing to team skill development through peer training and coaching.
+          * Analyze case trends and proactively identify opportunities to reduce ticket volume through tooling enhancements, process improvements, and customer enablement.
+          * Maintain a 95%+ customer satisfaction rating by combining technical expertise with strong communication skills and a proactive, customer-first mindset.
+      - layout: left
+        title: NetApp, Inc.
+        link: https://www.netapp.com/
+        # link_text: netapp.com
         sub_title: Technical Support Engineer Level 2 Oncommand
-        caption: February 2023 - Now
+        caption: January 2023 - June 2025
         quote: >
           NetApp, Inc. is an American data infrastructure company that provides unified data storage, integrated data services, and cloud operations solutions to enterprise customers.
         description: | # this will include new lines to allow paragraphs
@@ -49,7 +63,7 @@ content:
             * Troubleshot REST APIs, storage health and performance issues, and OS environment problems across both on-premises and cloud infrastructures, ensuring quick issue resolution.
             * Configured and managed alerts and notifications for system issues and failures, enhancing proactive monitoring and incident response.
             * Created and maintained technical documentation and knowledge base articles as a Knowledge-Centered Service (KCS) Publisher, improving self-service support and reducing case resolution time.
-            * Delivered exceptional customer support, achieving a 95% customer satisfaction rating through effective troubleshooting, clear communication, and timely resolution of complex issues.
+            * Delivered exceptional customer support, achieving a 95% customer satisfaction rating through effective troubleshooting, clear communication, and timely resolution of complex issues.  
       - layout: left
         title: Facephi Biometria S.A.
         link: https://facephi.com/
