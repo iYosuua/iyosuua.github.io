@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/98.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/desktop.css' | relative_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/icons/mycomputer.svg' | relative_url }}">
+</head>
+<body>
+  {% include boot-splash.html %}
+  <div id="desktop">
+    {{ content }}
+  </div>
+  {% include start-menu.html %}
+  {% include taskbar.html %}
+  <script src="{{ '/assets/js/desktop.js' | relative_url }}"></script>
+</body>
+</html>

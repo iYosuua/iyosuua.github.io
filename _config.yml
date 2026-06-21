@@ -1,0 +1,21 @@
+title: "Jesús Reyes Piernagorda"
+description: "Technical Support Engineer — resume desktop"
+author: "Jesús Reyes Piernagorda"
+email: "jesusrepi@gmail.com"
+url: "https://iyosuua.github.io"
+lang: "en"
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+  - package.json
+  - package-lock.json
+  - _tools
+
+permalink: pretty

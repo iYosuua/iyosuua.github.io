@@ -1,0 +1,134 @@
+---
+layout: default
+title: Home
+---
+
+{% assign r = site.data.resume %}
+
+<div id="icon-grid">
+  {% include desktop-icon.html icon="about"      label="About Me"    target="window-about" %}
+  {% include desktop-icon.html icon="experience" label="Experience"  target="window-experience" %}
+  {% include desktop-icon.html icon="skills"     label="Skills"      target="window-skills" %}
+  {% include desktop-icon.html icon="projects"   label="Projects"    target="window-projects" %}
+  {% include desktop-icon.html icon="contact"    label="Contact"     target="window-contact" %}
+  {% include desktop-icon.html icon="mycomputer" label="My Computer" target="window-mycomputer" %}
+  {% include desktop-icon.html icon="recyclebin" label="Recycle Bin" target="window-recyclebin" %}
+</div>
+
+{% comment %} ============== ABOUT ============== {% endcomment %}
+{% capture about_body %}
+<div class="about-grid">
+  <div class="profile-frame">
+    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile photo">
+  </div>
+  <div>
+    <h2>{{ r.name }} <span style="font-weight:normal; opacity:.65;">({{ r.korean_name }})</span></h2>
+    <h3>{{ r.title }}</h3>
+    <p>{{ r.bio }}</p>
+  </div>
+</div>
+{% endcapture %}
+{% include window.html id="window-about" title="About Me - Notepad" icon="about" x=120 y=70 w=560 body=about_body %}
+
+{% comment %} ============== EXPERIENCE ============== {% endcomment %}
+{% capture experience_body %}
+<div class="experience-list">
+  {% for job in r.experience %}
+  <div class="job">
+    <h4>{{ job.company }}</h4>
+    <div class="role">{{ job.role }}</div>
+    <div class="period">{{ job.period }} &nbsp;·&nbsp; <a href="{{ job.url }}" target="_blank" rel="noopener">{{ job.url }}</a></div>
+    <div class="summary">{{ job.summary }}</div>
+    <ul>
+      {% for b in job.bullets %}<li>{{ b }}</li>{% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
+{% endcapture %}
+{% include window.html id="window-experience" title="Experience.doc" icon="experience" x=200 y=110 w=620 body=experience_body %}
+
+{% comment %} ============== SKILLS ============== {% endcomment %}
+{% capture skills_body %}
+<div class="skills-grid">
+  {% for g in r.skills %}
+  <fieldset>
+    <legend>{{ g.group }}</legend>
+    <ul>
+      {% for item in g.items %}<li>{{ item }}</li>{% endfor %}
+    </ul>
+  </fieldset>
+  {% endfor %}
+</div>
+{% endcapture %}
+{% include window.html id="window-skills" title="Skills - Properties" icon="skills" x=260 y=140 w=580 body=skills_body %}
+
+{% comment %} ============== PROJECTS ============== {% endcomment %}
+{% capture projects_body %}
+<div class="projects-list">
+  {% for p in r.projects %}
+  <div class="project">
+    <h4>📁 <a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></h4>
+    <p>{{ p.description }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endcapture %}
+{% include window.html id="window-projects" title="Projects" icon="projects" x=320 y=170 w=520 body=projects_body %}
+
+{% comment %} ============== CONTACT ============== {% endcomment %}
+{% capture contact_body %}
+<div class="contact-list">
+  {% for c in r.contact %}
+  <div class="contact-row window" style="padding:0;">
+    <div class="title-bar" style="cursor:default;">
+      <div class="title-bar-text">{{ c.label }}</div>
+    </div>
+    <div class="window-body" style="display:flex;align-items:center;gap:10px;padding:10px;">
+      <span>{{ c.value }}</span>
+      <a href="{{ c.href }}" target="_blank" rel="noopener"><button>Open ›</button></a>
+    </div>
+  </div>
+  {% endfor %}
+  <p style="font-size:11px; color:#555; text-align:center; margin-top:6px;">References available on request.</p>
+</div>
+{% endcapture %}
+{% include window.html id="window-contact" title="Contact" icon="contact" x=380 y=200 w=440 body=contact_body %}
+
+{% comment %} ============== MY COMPUTER ============== {% endcomment %}
+{% capture mycomputer_body %}
+<p style="margin:0 0 10px 0; font-size:12px;">Select an item to view its description.</p>
+<div class="drives-grid">
+  <div class="drive">
+    <img src="{{ '/assets/icons/drive-floppy.svg' | relative_url }}" alt="">
+    <div class="label">3½ Floppy (A:)</div>
+  </div>
+  <div class="drive">
+    <img src="{{ '/assets/icons/drive-c.svg' | relative_url }}" alt="">
+    <div class="label">Career (C:)</div>
+  </div>
+  <div class="drive">
+    <img src="{{ '/assets/icons/drive-cd.svg' | relative_url }}" alt="">
+    <div class="label">Knowledge (D:)</div>
+  </div>
+  <div class="drive">
+    <img src="{{ '/assets/icons/drive-c.svg' | relative_url }}" alt="">
+    <div class="label">Projects (E:)</div>
+  </div>
+</div>
+<hr style="margin-top:14px;">
+<p style="font-size:11px; color:#333;">
+  System: 12 years TSE · Memory: storage, networks, Linux, Windows · Status: Available for new challenges.
+</p>
+{% endcapture %}
+{% include window.html id="window-mycomputer" title="My Computer" icon="mycomputer" x=140 y=200 w=460 body=mycomputer_body %}
+
+{% comment %} ============== RECYCLE BIN ============== {% endcomment %}
+{% capture recycle_body %}
+<div class="recycle-empty">
+  <img src="{{ '/assets/icons/recyclebin.svg' | relative_url }}" alt="">
+  <p><strong>Recycle Bin is empty.</strong></p>
+  <p style="opacity:.7;">All bad code, abandoned projects and forgotten passwords have been permanently deleted.</p>
+</div>
+{% endcapture %}
+{% include window.html id="window-recyclebin" title="Recycle Bin" icon="recyclebin" x=420 y=240 w=380 body=recycle_body %}

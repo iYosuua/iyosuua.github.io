@@ -1,0 +1,30 @@
+{% comment %}
+  Render an OS-style window. Params:
+    id    – DOM id for the window (matches icon target)
+    title – text for title bar
+    icon  – icon filename in /assets/icons (without extension)
+    x, y  – initial top-left position (px)
+    w     – initial width (px, optional)
+    body  – inner HTML
+{% endcomment %}
+<div class="window os-window"
+     id="{{ include.id }}"
+     data-icon="{{ include.icon }}"
+     data-title="{{ include.title }}"
+     style="left:{{ include.x | default: 80 }}px; top:{{ include.y | default: 60 }}px;{% if include.w %} width:{{ include.w }}px;{% endif %}">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      <img src="{{ '/assets/icons/' | append: include.icon | append: '.svg' | relative_url }}"
+           alt="" style="width:14px;height:14px;vertical-align:-3px;margin-right:4px;">
+      {{ include.title }}
+    </div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize" data-action="minimize"></button>
+      <button aria-label="Maximize" data-action="maximize"></button>
+      <button aria-label="Close" data-action="close"></button>
+    </div>
+  </div>
+  <div class="window-body">
+    {{ include.body }}
+  </div>
+</div>

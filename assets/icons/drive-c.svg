@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" shape-rendering="crispEdges">
+  <rect x="4" y="8" width="32" height="24" fill="#e0e0e0" stroke="#000"/>
+  <rect x="4" y="8" width="32" height="3" fill="#000080"/>
+  <text x="20" y="26" text-anchor="middle" font-family="monospace" font-size="11" fill="#000">C:</text>
+</svg>

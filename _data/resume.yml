@@ -1,0 +1,116 @@
+name: "Jesús Reyes Piernagorda"
+korean_name: "이해수"
+title: "Technical Support Engineer"
+email: "jesusrepi@gmail.com"
+github: "https://github.com/iYosuua"
+linkedin: "https://www.linkedin.com/in/jesusreyesp"
+
+bio: >
+  Technical Support Engineer with 12 years of experience, specializing in networking,
+  data storage solutions, system deployments, and both Linux and Windows environments.
+  Passionate about emerging technologies and always looking to expand my technical skills.
+  Throughout my career I've developed a knack for quickly resolving complex issues in
+  fast-paced environments. My experience in B2B technical organizations has shaped my
+  leadership style — whether mentoring colleagues or tackling challenges head-on.
+  Fluent in both Spanish and English, I bridge communication gaps between teams and clients.
+  I'm also committed to creating clear and comprehensive KCS documentation to improve
+  self-service options and streamline case resolution.
+
+experience:
+  - company: "NetApp, Inc."
+    role: "Senior Technical Support Engineer Level 3 — OnCommand"
+    period: "July 2025 — Present"
+    url: "https://www.netapp.com/"
+    summary: "American data infrastructure company providing unified data storage, integrated data services, and cloud operations solutions to enterprise customers."
+    bullets:
+      - "Promoted to Senior Engineer in recognition of technical leadership, mentoring, and consistent delivery of high-impact support."
+      - "Lead high-impact customer cases, collaborating cross-functionally with Product Engineering to drive resolution."
+      - "Mentor and guide junior engineers, facilitating knowledge transfer sessions and contributing to team skill development."
+      - "Analyze case trends and proactively identify opportunities to reduce ticket volume through tooling enhancements and customer enablement."
+      - "Maintain a 95%+ customer satisfaction rating by combining technical expertise with strong communication and a customer-first mindset."
+
+  - company: "NetApp, Inc."
+    role: "Technical Support Engineer Level 2 — OnCommand"
+    period: "January 2023 — June 2025"
+    url: "https://www.netapp.com/"
+    summary: "American data infrastructure company providing unified data storage, integrated data services, and cloud operations solutions to enterprise customers."
+    bullets:
+      - "Provided technical support for monitoring NetApp storage systems including Active IQ Unified Manager, Data Infrastructure Insights, ONTAP System Manager, and Active IQ Digital Advisor."
+      - "Troubleshot REST APIs, storage health and performance issues, and OS environment problems across on-premises and cloud infrastructures."
+      - "Configured and managed alerts and notifications for system issues, enhancing proactive monitoring and incident response."
+      - "Created and maintained KCS-published technical documentation, improving self-service support and reducing case resolution time."
+      - "Delivered exceptional customer support, achieving a 95% customer satisfaction rating through clear communication and timely resolution."
+
+  - company: "Facephi Biometria S.A."
+    role: "Technical Support Engineer Level 2"
+    period: "January 2022 — January 2023"
+    url: "https://facephi.com/"
+    summary: "FacePhi specialises in digital onboarding and biometric authentication, delivering secure and easy-to-use identity verification technology."
+    bullets:
+      - "Provided Level 2 technical support and dispatcher duties for the APAC region, ensuring timely issue resolution."
+      - "Delivered SaaS, API and SDK support for digital onboarding and biometric authentication solutions."
+      - "Managed Jira, GitHub, Confluence, CRM and Redmine to streamline issue tracking and documentation."
+      - "Assisted with mobile/web framework integrations: Ionic, Cordova, Capacitor, React Native, Flutter, Angular, Vue, React."
+      - "Adhered to ITIL processes, monitored KPIs/SLAs and participated in QA testing to enhance service quality."
+      - "Managed software licensing for biometric authentication solutions across clients and internal teams."
+
+  - company: "Lisec GmbH"
+    role: "Technical Support Specialist"
+    period: "July 2018 — January 2022"
+    url: "https://www.lisec.com/"
+    summary: "LiSEC produces glass-processing machines, offering single and system solutions in flat glass processing and refining."
+    bullets:
+      - "Resolved complex issues in order management, production planning, data analysis and machine integration in the flat-glass industry."
+      - "Acted as Database Administrator (PostgreSQL, Oracle), handling optimisation, backups and performance troubleshooting."
+      - "Supported ERP & CRM systems, assisting with configuration, data integrity and workflow automation."
+      - "Built and configured Windows Server, Linux and macOS X Server environments."
+      - "Executed OS upgrades, patching and security updates while maintaining system stability and compliance."
+
+  - company: "Molisoft Grupo Empresarial S.L."
+    role: "NOC Engineer"
+    period: "March 2013 — May 2018"
+    url: "https://molisoft.com/"
+    summary: "Molisoft is an ISP specialising in reliable networking solutions and expert technical support for businesses and individuals."
+    bullets:
+      - "Installed, maintained and optimised DOCSIS systems for local TV, internet and telephony providers."
+      - "Monitored network performance to detect, analyse and resolve faults — minimising service disruption."
+      - "Built, configured and troubleshot server and desktop hardware for optimal performance."
+      - "Designed, implemented and managed Linux-based services supporting telecom and ISP infrastructure."
+      - "Implemented disaster recovery, security hardening and access control to protect sensitive data."
+      - "Supervised third-party maintenance contracts, ensuring service calls were logged, tracked and resolved efficiently."
+
+skills:
+  - group: "Storage & Infrastructure"
+    items: ["NetApp ONTAP", "Active IQ Unified Manager", "Data Infrastructure Insights", "Storage performance analysis", "ASUP / log analysis"]
+  - group: "Operating Systems"
+    items: ["Linux (RHEL, Debian)", "Windows Server", "macOS Server"]
+  - group: "Networking"
+    items: ["TCP/IP", "DOCSIS", "Routing & switching", "Firewalls", "Network monitoring"]
+  - group: "Databases"
+    items: ["PostgreSQL", "Oracle", "MySQL"]
+  - group: "Tools & Platforms"
+    items: ["Jira", "Confluence", "GitHub", "REST APIs", "ITIL processes", "KCS publishing"]
+  - group: "Languages"
+    items: ["Spanish (native)", "English (fluent)"]
+
+projects:
+  - name: "iyosuua.github.io"
+    url: "https://github.com/iYosuua/iYosuua.github.io"
+    description: "This very resume site — a Win98-themed desktop built with Jekyll, 98.css and a hand-rolled vanilla-JS window manager."
+  - name: "KCS Knowledge Articles"
+    url: "https://kb.netapp.com/"
+    description: "Authored and maintained KCS-published documentation on the NetApp KB to improve self-service support."
+
+contact:
+  - label: "Email"
+    icon: "mail"
+    href: "mailto:jesusrepi@gmail.com"
+    value: "jesusrepi@gmail.com"
+  - label: "LinkedIn"
+    icon: "linkedin"
+    href: "https://www.linkedin.com/in/jesusreyesp"
+    value: "linkedin.com/in/jesusreyesp"
+  - label: "GitHub"
+    icon: "github"
+    href: "https://github.com/iYosuua"
+    value: "github.com/iYosuua"

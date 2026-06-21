@@ -1,0 +1,8 @@
+{% comment %}
+  Render a single desktop icon.
+  Params: icon (filename without extension), label, target (window id)
+{% endcomment %}
+<div class="desktop-icon" data-target="{{ include.target }}" tabindex="0">
+  <img src="{{ '/assets/icons/' | append: include.icon | append: '.svg' | relative_url }}" alt="">
+  <div class="label">{{ include.label }}</div>
+</div>
