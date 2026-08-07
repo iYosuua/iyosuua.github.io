@@ -107,6 +107,7 @@ projects:
   - name: "PeopleFund — Biometric Onboarding License & Release Management"
     company: "Facephi Biometria S.A."
     period: "November 2022 — January 2023"
+    url: "https://facephi.com/en/news/peoplefunds-korean-customers-can-now-borrow-at-any-time-from-any-location/"
     description: "Software licensing and release certification for PeopleFund's biometric onboarding solution."
     bullets:
       - "Managed software licensing for PeopleFund's biometric onboarding solution, tracking renewals and allocation to guarantee 100% service availability."
@@ -116,6 +117,7 @@ projects:
   - name: "Korea Investment Securities — Onboarding Release Certification"
     company: "Facephi Biometria S.A."
     period: "August 2022 — November 2022"
+    url: "https://facephi.com/en/news/korean-finance-company-kis-revolutionises-its-client-registration-system-with-facephi-biometrics/"
     description: "Production release validation and infrastructure scaling for Korea Investment Securities' onboarding application."
     bullets:
       - "Owned production release validation and certification for Korea Investment Securities' onboarding application, achieving a 100% success rate."
@@ -125,6 +127,7 @@ projects:
   - name: "Mirae Asset Securities — Global License Rollout"
     company: "Facephi Biometria S.A."
     period: "April 2022 — July 2022"
+    url: "https://securities.miraeasset.com/bbs/download/2127311.pdf?attachmentId=2127311"
     description: "End-to-end license acquisition and capacity planning across 100 global customer environments."
     bullets:
       - "Managed end-to-end license acquisition and configuration across 100 global customer environments, including 15 customers in South Korea, sizing capacity to handle projected transaction volumes and prevent licensing or capacity issues once live in production."
@@ -134,11 +137,76 @@ projects:
   - name: "CityLabs — Korean OCR Error-Correction System"
     company: "Facephi Biometria S.A."
     period: "January 2022 — April 2022"
+    url: "https://facephi.com/en/news/facephi-will-bring-its-identity-verification-technology-to-one-of-south-koreas-smart-cities/"
     description: "Machine learning-based error-correction system for OCR-read Korean addresses and SDK integrations."
     bullets:
       - "Advised front-end and back-end teams on facial recognition and ID document capture recommendations, reducing client-reported onboarding errors by 25% and ensuring a frictionless client experience for digital onboarding."
       - "Designed and implemented FacePhi's first machine learning-based error-correction system for OCR-read Korean addresses, applying first-hand knowledge of Korean address formatting conventions to raise document-reading accuracy from 40% to 95%."
       - "Integrated biometric authentication SDKs with mobile and web frameworks (Ionic, Cordova, React Native), cutting integration time by 20%, to streamline the CityLabs digital onboarding flow."
+
+  - name: "Daegu Bank — Biometric Account Opening"
+    company: "Facephi Biometria S.A. (Facephi APAC)"
+    period: "2020 — 2021"
+    url: "https://facephi.com/en/news/daegu-bank-counts-with-facephi-the-experts-in-biometrics/"
+    description: "First bank in Korea to launch biometric account opening with Facephi, later extended to biometric login and fund transfers."
+    bullets:
+      - "Supported Daegu Bank's rollout of facial recognition and ID document reading for mobile account opening, the first deployment of its kind in Korea's banking sector."
+      - "Contributed to Daegu Bank's participation in the Korean government's 'Innovation Financial Services' regulatory sandbox for AI and biometric technology in banking."
+      - "Helped extend the deployment to biometric face authentication and liveness detection for app login and fund transfers."
+
+  - name: "Kangbuk Samsung Hospital — Contactless Patient Identification"
+    company: "Facephi Biometria S.A. (Facephi APAC, with NSSMART)"
+    period: "2020"
+    url: "https://facephi.com/en/news/facephi-can-verify-your-identity-even-with-a-mask-on/"
+    description: "Facial recognition patient identification system for Kangbuk Samsung Hospital in Seoul, deployed with technology partner NSSMART."
+    bullets:
+      - "Supported deployment of a facial recognition patient-identification system, replacing physical health cards and manual registration at check-in kiosks."
+      - "Helped adapt the recognition algorithm to keep working reliably for patients wearing face masks during the COVID-19 pandemic."
+      - "Contributed to Facephi's first eHealth use case in the APAC region, reducing health-insurance fraud and speeding up patient check-in."
+
+  - name: "HancomWith — Employee Facial Authentication"
+    company: "Facephi Biometria S.A. (Facephi APAC)"
+    period: "2020"
+    url: "https://facephi.com/en/news/facephi-reaches-agreement-with-hancomwith-in-asia/"
+    description: "Facial authentication for employee login, later expanded into a reseller partnership across the APAC region."
+    bullets:
+      - "Supported the rollout of Facephi's facial authentication technology to replace password-based logins for HancomWith staff, a Korean leader in digital forensics."
+      - "Contributed to a partnership that later made HancomWith a reseller of Facephi's biometric technology under its own brand (Hancom Auth / HancomOS) across the APAC region."
+
+  - name: "Hanwha Investment & Securities — Selfie-Based Onboarding"
+    company: "Facephi Biometria S.A. (Facephi APAC)"
+    period: "2020"
+    url: "https://idtechwire.com/koreas-national-biometric-testing-center-certifies-facephi-tech-501241/"
+    description: "Selfie-based digital onboarding for one of Korea's major financial groups, Hanwha Investment & Securities."
+    bullets:
+      - "Supported the deployment of facial recognition-based account opening for Hanwha Investment & Securities, part of the wider Hanwha Group."
+      - "Contributed to the technology validation work behind Facephi's K-NBTC certification from Korea's National Biometric Testing Center, which covered this and other Korean deployments."
+
+  - name: "KB Securities — Biometric Digital Onboarding"
+    company: "Facephi Biometria S.A. (Facephi APAC)"
+    period: "2020"
+    url: "https://www.biometricupdate.com/202009/facephi-expands-biometric-onboarding-in-korea-acuant-provides-facial-recognition-for-legal-compliance"
+    description: "Fully biometric facial-recognition digital onboarding for KB Securities, a subsidiary of KB Financial Group."
+    bullets:
+      - "Supported integration of KB Securities' mobile app (M-able) with Facephi's facial recognition and OCR document reading, enabling account opening with a selfie and photo ID."
+      - "Contributed to one of the first 100% biometric digital onboarding deployments in Korea for a subsidiary of KB Financial Group, one of the country's largest banking groups."
+
+  - name: "Pinetree Securities — Biometric Onboarding (Vietnam)"
+    company: "Facephi Biometria S.A. (Facephi APAC)"
+    period: "2020"
+    url: "https://en.facephi.com/news/facephi-reaches-vietnam/"
+    description: "Extended Facephi's biometric onboarding technology to Pinetree Securities, Vietnam's leading online investment company and part of the Hanwha Group."
+    bullets:
+      - "Supported Facephi's expansion into Vietnam through a contract with Pinetree Securities, part of Hanwha Group's investment arm."
+      - "Contributed to adapting the onboarding solution for a new market outside Korea, building on prior work for other Hanwha Group entities."
+
+  - name: "Coinone — Biometric KYC/AML Authentication"
+    company: "Facephi Biometria S.A. (Facephi APAC)"
+    url: "https://facephi.com/en/crypto/"
+    description: "Biometric identity verification for Coinone, one of South Korea's main cryptocurrency exchanges, to strengthen KYC/AML compliance."
+    bullets:
+      - "Supported the integration of Facephi's facial biometric authentication into Coinone's platform, letting users verify identity with a document photo and a selfie."
+      - "Contributed to enabling higher-trust actions such as registering external wallets and reactivating accounts under KYC/AML compliance requirements."
 
   - name: "iyosuua.github.io"
     url: "https://github.com/iYosuua/iYosuua.github.io"
