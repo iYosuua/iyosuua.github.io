@@ -94,6 +94,52 @@ skills:
     items: ["Spanish (native)", "English (fluent)"]
 
 projects:
+  - name: "AI-Powered MCP Tooling for Technical Support"
+    company: "NetApp, Inc."
+    period: "May 2026 — Present"
+    url: "https://www.netapp.com/"
+    description: "Custom Model Context Protocol (MCP) servers that integrate AI assistants into the technical support workflow."
+    bullets:
+      - "Designed and built custom Model Context Protocol (MCP) servers to integrate AI assistants into 100% of the technical support workflow, enabling structured, high-quality case framing for engineers."
+      - "Drove a 60% increase in team productivity by enabling engineers to manage cases faster through AI-assisted case framing, streamlined case updates, and automated log review."
+      - "Automated repetitive tasks around case documentation and log checking, significantly cutting the time engineers spent on administrative tasks."
+
+  - name: "PeopleFund — Biometric Onboarding License & Release Management"
+    company: "Facephi Biometria S.A."
+    period: "November 2022 — January 2023"
+    description: "Software licensing and release certification for PeopleFund's biometric onboarding solution."
+    bullets:
+      - "Managed software licensing for PeopleFund's biometric onboarding solution, tracking renewals and allocation to guarantee 100% service availability."
+      - "Certified application releases for production, achieving a 100% success rate with zero rollback incidents."
+      - "Advised the client's development team on facial recognition and identity-document reading best practices to reduce onboarding friction and error rates."
+
+  - name: "Korea Investment Securities — Onboarding Release Certification"
+    company: "Facephi Biometria S.A."
+    period: "August 2022 — November 2022"
+    description: "Production release validation and infrastructure scaling for Korea Investment Securities' onboarding application."
+    bullets:
+      - "Owned production release validation and certification for Korea Investment Securities' onboarding application, achieving a 100% success rate."
+      - "Partnered with front-end and back-end teams to implement facial recognition and ID document capture best practices, reducing client-facing biometric read errors by 30% and maintaining a 100% client satisfaction rate with zero escalated incidents."
+      - "Defined infrastructure requirements and evaluated scaling considerations for hardware and software, enabling the platform to support a 3x increase in onboarding volume during peak periods while sustaining 100% uptime."
+
+  - name: "Mirae Asset Securities — Global License Rollout"
+    company: "Facephi Biometria S.A."
+    period: "April 2022 — July 2022"
+    description: "End-to-end license acquisition and capacity planning across 100 global customer environments."
+    bullets:
+      - "Managed end-to-end license acquisition and configuration across 100 global customer environments, including 15 customers in South Korea, sizing capacity to handle projected transaction volumes and prevent licensing or capacity issues once live in production."
+      - "Anticipated demand spikes ahead of high-traffic periods (promotional campaigns, product launches, peak access days) and scaled licensing accordingly to prevent service disruption, maintaining 100% uptime with zero client-reported incidents."
+      - "Planned hardware and software requirements and defined the product's scalability roadmap to support projected user growth, using load-testing results to identify and address capacity risks proactively, reducing production incidents by 95%."
+
+  - name: "CityLabs — Korean OCR Error-Correction System"
+    company: "Facephi Biometria S.A."
+    period: "January 2022 — April 2022"
+    description: "Machine learning-based error-correction system for OCR-read Korean addresses and SDK integrations."
+    bullets:
+      - "Advised front-end and back-end teams on facial recognition and ID document capture recommendations, reducing client-reported onboarding errors by 25% and ensuring a frictionless client experience for digital onboarding."
+      - "Designed and implemented FacePhi's first machine learning-based error-correction system for OCR-read Korean addresses, applying first-hand knowledge of Korean address formatting conventions to raise document-reading accuracy from 40% to 95%."
+      - "Integrated biometric authentication SDKs with mobile and web frameworks (Ionic, Cordova, React Native), cutting integration time by 20%, to streamline the CityLabs digital onboarding flow."
+
   - name: "iyosuua.github.io"
     url: "https://github.com/iYosuua/iYosuua.github.io"
     description: "This very resume site — a Win98-themed desktop built with Jekyll, 98.css and a hand-rolled vanilla-JS window manager."

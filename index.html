@@ -68,8 +68,16 @@ title: Home
 <div class="projects-list">
   {% for p in r.projects %}
   <div class="project">
-    <h4>📁 <a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></h4>
-    <p>{{ p.description }}</p>
+    <h4>📁 {% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</h4>
+    {% if p.company or p.period %}
+    <div class="period">{{ p.company }}{% if p.company and p.period %} &nbsp;·&nbsp; {% endif %}{{ p.period }}</div>
+    {% endif %}
+    {% if p.description %}<p>{{ p.description }}</p>{% endif %}
+    {% if p.bullets %}
+    <ul>
+      {% for b in p.bullets %}<li>{{ b }}</li>{% endfor %}
+    </ul>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
