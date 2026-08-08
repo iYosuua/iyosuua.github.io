@@ -82,12 +82,14 @@
     if (!s) return;
     s.window.classList.remove('open');
     s.window.classList.remove('maximized');
+    s.window.style.display = 'none';
     s.maximized = false;
     s.minimized = false;
     if (s.taskBtn) {
       s.taskBtn.remove();
       s.taskBtn = null;
     }
+    syncTaskbar();
   }
 
   function minimizeWindow(id) {
